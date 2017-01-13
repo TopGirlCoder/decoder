@@ -17,7 +17,7 @@ Output: a string of letters offset by 13, for example "nop".
 
 ####Constraints:
   
-  Input is a string of letters, and decoder key is a nonnegative integer.
+  Input is a string of letters, and offset is a nonnegative integer.
 
   Loop to the beginning of the alphabet if a decoded letter result is beyond 'z' or 'Z'. For example, "xyz" with an offset of 1 would be decoded as "yza".
 
