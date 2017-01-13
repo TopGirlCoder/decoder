@@ -27,15 +27,15 @@ Output: a string of letters offset by 13, for example "nop".
 
 ###Functions are written in JavaScript:
   
-  _Decoder(str, offset=13):_ An object contructor function that takes a string of letters and an offset that has a default value of 13.
+  **Decoder(str, offset=13):** An object contructor function that takes a string of letters and an offset that has a default value of 13.
   
-  _basecases():_ A function that checks for basecases.
+  **basecases():** A function that checks for basecases.
 
-  _adjustOffset():_ A function that adjusts the offset to not be greater than 26, the length of the alphabet. This will prevent calculation errors with offset values greater than 26.
+  **adjustOffset():** A function that adjusts the offset to not be greater than 26, the length of the alphabet. This will prevent calculation errors with offset values greater than 26.
 
-  _decode():_ A function that utilizes the ASCII decimal system to calculate the letters in a string at an offset. 
+  **decode():** A function that utilizes the ASCII decimal system to calculate the letters in a string at an offset. 
 
-  _refactoredDecode():_ A refactored function that utilizes the ASCII decimal system to calculate the letters in a string at an offset. 
+  **refactoredDecode():** A refactored function that utilizes the ASCII decimal system to calculate the letters in a string at an offset. 
 ### Jasmine Tests
 Tests have been written in Jasmine to describe the behavior of custom JavaScript functions. The file containing the tests is located in the 'spec/' directory, and the file is named 'decoder-spec.js'.
 ### Running Jasmine Tests
