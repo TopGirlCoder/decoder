@@ -57,7 +57,7 @@ decoder.decode();
 decoder.recactoredDecode();
 ```
 
-The code may be run by on the command line navigating to the decoder.js file and then run
+On the command line navigate to the decoder.js file and then run
 
 ```
 $ ruby decoder.js
